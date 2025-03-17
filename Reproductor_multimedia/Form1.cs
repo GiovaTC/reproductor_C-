@@ -14,7 +14,12 @@ namespace Reproductor_multimedia
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            if (dialogoAbrir.ShowDialog() == DialogResult.OK)
+            {
+                reproductor.URL = dialogoAbrir.FileName;
+                // Opcional: Mostrar el nombre del archivo
+                // lblNombreArchivo.Text = dialogoAbrir.SafeFileName;
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
