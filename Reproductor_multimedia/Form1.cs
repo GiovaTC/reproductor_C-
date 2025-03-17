@@ -22,7 +22,7 @@ namespace Reproductor_multimedia
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+ /*       private void button2_Click(object sender, EventArgs e)
         {
             if (reproductor.playState == WMPLib.WMPPlayState.wmppsPlaying)
             {
@@ -34,7 +34,7 @@ namespace Reproductor_multimedia
                 reproductor.Ctlcontrols.play();
                 btnReproducir.Text = "Pausar";
             }
-        }
+        }*/
 
         private void openFileDialog1_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
         {

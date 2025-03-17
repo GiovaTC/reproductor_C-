@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             btnAbrir = new Button();
-            btnReproducir = new Button();
             reproductor = new AxWMPLib.AxWindowsMediaPlayer();
             dialogoAbrir = new OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)reproductor).BeginInit();
@@ -45,16 +44,6 @@
             btnAbrir.Text = "Abrir archivo";
             btnAbrir.UseVisualStyleBackColor = true;
             btnAbrir.Click += button1_Click;
-            // 
-            // btnReproducir
-            // 
-            btnReproducir.Location = new Point(169, 433);
-            btnReproducir.Name = "btnReproducir";
-            btnReproducir.Size = new Size(140, 23);
-            btnReproducir.TabIndex = 2;
-            btnReproducir.Text = "Reproducir / Pausar";
-            btnReproducir.UseVisualStyleBackColor = true;
-            btnReproducir.Click += button2_Click;
             // 
             // reproductor
             // 
@@ -77,7 +66,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 468);
             Controls.Add(reproductor);
-            Controls.Add(btnReproducir);
             Controls.Add(btnAbrir);
             Name = "Form1";
             Text = "Form1";
@@ -88,7 +76,6 @@
 
         #endregion
         private Button btnAbrir;
-        private Button btnReproducir;
         private AxWMPLib.AxWindowsMediaPlayer reproductor;
         private OpenFileDialog dialogoAbrir;
     }
