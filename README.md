@@ -1,5 +1,7 @@
 # Reproductor Multimedia en C# con Interfaz Gráfica
 
+![image](https://github.com/user-attachments/assets/815da692-e484-4f59-801b-f6e679157365)
+
 ![image](https://github.com/user-attachments/assets/9f28459f-7827-430a-b363-93e11ff6eda1)
 
 ![image](https://github.com/user-attachments/assets/9fcaed7f-b391-43d6-90c4-a2cd1bc55250)
