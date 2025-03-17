@@ -56,6 +56,12 @@ El proyecto típicamente tendrá la siguiente estructura:
 * **`Program.cs`:** Punto de entrada principal de la aplicación.
 * **`Properties/`:** Carpeta que contiene archivos de configuración del proyecto (por ejemplo, `AssemblyInfo.cs`, `Settings.settings`, `Resources.resx`).
 
+
+# copyright (c) [Año] [Tu Nombre o Nombre de la Organización]
+# Todos los derechos reservados.
+
+Este software se proporciona "TAL CUAL", sin garantía de ningún tipo, expresa o implícita, incluyendo, pero no limitado a, las garantías de comerciabilidad, idoneidad para un propósito particular y no infracción. En ningún caso, el autor o los titulares de los derechos de autor serán responsables de ninguna reclamación, daño u otra responsabilidad, ya sea en una acción de contrato, agravio o de otro modo, que surja de, fuera de o en conexión con el software o el uso u otros tratos en el software.
+
 ## Código Fuente (Ejemplos)
 
 A continuación, se muestran fragmentos de código clave del archivo `Form1.cs`:
@@ -92,9 +98,3 @@ private void barraVolumen_Scroll(object sender, EventArgs e)
 {
     reproductor.settings.volume = barraVolumen.Value;
 }
-
-# copyright (c) [Año] [Tu Nombre o Nombre de la Organización]
-
-# Todos los derechos reservados.
-
-Este software se proporciona "TAL CUAL", sin garantía de ningún tipo, expresa o implícita, incluyendo, pero no limitado a, las garantías de comerciabilidad, idoneidad para un propósito particular y no infracción. En ningún caso, el autor o los titulares de los derechos de autor serán responsables de ninguna reclamación, daño u otra responsabilidad, ya sea en una acción de contrato, agravio o de otro modo, que surja de, fuera de o en conexión con el software o el uso u otros tratos en el software.
